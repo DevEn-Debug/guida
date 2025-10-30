@@ -32,6 +32,11 @@ const content = `
     </div>
 
     <p><strong>Grazie per la comprensione e buon gioco!</strong></p>
+    
+    <div class="team-card">
+        <h4>Credits</h4>
+        <p>Guida realizzata da <strong>Caste01</strong> e <strong>B3rtani</strong></p>
+    </div>
 </section>
 
 <section id="laboratorio">
@@ -170,8 +175,8 @@ const content = `
 
     <p>Per aver superato il dungeon riceverai una ricompensa in <strong>punti</strong>:</p>
     <ul>
-        <li><strong>Completamento normale:</strong> [NUMERO] punti.</li>
-        <li><strong>Full Clear (tutti gli allenatori sconfitti):</strong> <span class="badge badge-points">25 punti</span>.</li>
+        <li><strong>Completamento normale:</strong><span class="badge badge-points">30 punti</span>.</li>
+        <li><strong>Full Clear (tutti gli allenatori sconfitti):</strong> <span class="badge badge-points">50 punti</span>.</li>
     </ul>
 </section>
 
@@ -413,8 +418,8 @@ const content = `
 
     <p>Una volta sconfitti gli allenatori, potrai uscire dalla miniera usando la <strong>porta al primo piano</strong>.</p>
     <ul>
-        <li><strong>Uscita:</strong> [NUMERO] punti.</li>
-        <li><strong>Full Clear (tutti gli allenatori sconfitti):</strong> <span class="badge badge-points">20 punti</span>.</li>
+        <li><strong>Uscita:</strong> <span class="badge badge-points">20 punti</span>.</li>
+        <li><strong>Full Clear (tutti gli allenatori sconfitti):</strong> <span class="badge badge-points">25 punti</span>.</li>
     </ul>
 
     <h3>TERZA PALESTRA: ARTEMISIO</h3>
@@ -605,7 +610,7 @@ const content = `
 
     <h4>RICOMPENSA DEL DUNGEON</h4>
     <ul>
-        <li><strong>Completamento solo obbligatori:</strong> [NUMERO] punti.</li>
+        <li><strong>Completamento solo obbligatori:</strong><span class="badge badge-points">30 punti</span></li>
         <li><strong>Full Clear (sconfiggendo tutte le reclute e Acromio):</strong> <span class="badge badge-points">50 punti</span>.</li>
     </ul>
 </section>
@@ -772,7 +777,7 @@ Il treno è un <strong>dungeon</strong>. Preparati bene prima di entrare, perch�
 
     <h4>RICOMPENSA DEL DUNGEON</h4>
     <ul>
-        <li><strong>Completamento normale:</strong> [NUMERO] punti.</li>
+        <li><strong>Completamento normale:</strong><span class="badge badge-points">5 punti</span></li>
         <li><strong>Full Clear (sconfiggendo tutti gli allenatori):</strong> <span class="badge badge-points">15 punti</span>.</li>
     </ul>
 
@@ -925,7 +930,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
     </ul>
 
 <h4>RICOMPENSA PLASMA UNDERGROUND</h4>
-        <li><strong>Completamento normale (N più obbligatori):</strong> [NUMERO] punti.</li>
+        <li><strong>Completamento normale (N più obbligatori):</strong><span class="badge badge-points">25 punti</span></li>
         <li><strong>Full Clear (sconfiggendo tutte le reclute e N):</strong> <span class="badge badge-points">35 punti</span>.</li>
     </ul>
 </section>
@@ -991,7 +996,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
 
     <h4>RICOMPENSA DELLA TORRE PLASMA</h4>
     <ul>
-        <li><strong>Completamento normale:</strong> [NUMERO] punti.</li>
+        <li><strong>Completamento normale:</strong><span class="badge badge-points">15 punti</span></li>
         <li><strong>Full Clear (sconfiggendo tutti gli allenatori):</strong> <span class="badge badge-points">30 punti</span>.</li>
     </ul>
 
@@ -1072,8 +1077,8 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
 
     <h4>RICOMPENSA DEL CRATERE KORAKE</h4>
     <ul>
-        <li><strong>Completamento normale:</strong> [NUMERO] punti.</li>
-        <li><strong>Full Clear (sconfiggendo tutte le reclute):</strong> <span class="badge badge-points">35 punti</span>.</li>
+        <li><strong>Completamento normale:</strong><span class="badge badge-points">35 punti</span></li>
+        <li><strong>Full Clear (sconfiggendo tutte le reclute):</strong> <span class="badge badge-points">50 punti</span>.</li>
     </ul>
 </section>
 
@@ -1144,7 +1149,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
     <h4>RICOMPENSA DEL CAMMINO DELL'EROE</h4>
     <ul>
         <li><strong>Completamento normale:</strong> <span class="badge badge-points">30 punti</span></li>
-        <li><strong>Full Clear (sconfiggendo tutti gli allenatori):</strong> [NUMERO] punti.</li>
+        <li><strong>Full Clear (sconfiggendo tutti gli allenatori):</strong><span class="badge badge-points">100 punti</span></li>
     </ul>
 </section>
 
@@ -1258,34 +1263,35 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
         <tbody>
             <tr><td>Laboratorio (Lab)</td><td>+5</td><td>-</td><td>-</td></tr>
             <tr><td>Ponte</td><td>+10</td><td>-</td><td>-</td></tr>
-            <tr><td>Foresta Ukani</td><td>[NUMERO]</td><td>+25</td><td>-</td></tr>
+            <tr><td>Foresta Ukani</td><td>+15</td><td>+25</td><td>-</td></tr>
             <tr><td>Iris (1° Palestra)</td><td>+70</td><td>-</td><td>TM39</td></tr>
             <tr><td>World Boss (Fase 1)</td><td>+10</td><td>-</td><td>10 Megashard</td></tr>
             <tr><td>Tunnel Poaka</td><td>+20</td><td>+25</td><td>-</td></tr>
             <tr><td>Chicco (2° Palestra)</td><td>+35</td><td>-</td><td>TM08</td></tr>
             <tr><td>Acromio (Grotta Niuna)</td><td>+10</td><td>-</td><td>10 Megashard</td></tr>
+            <tr><td>MiniereGemora</td><td>+20</td><td>+25</td><td>-</td></tr>
             <tr><td>Artemisio (3° Palestra)</td><td>+35</td><td>-</td><td>TM34</td></tr>
             <tr><td>Rovine Ka'aka</td><td>+15</td><td>+25</td><td>-</td></tr>
             <tr><td>Selva Laloa</td><td>+10</td><td>+20</td><td>-</td></tr>
-            <tr><td>Cascate Tuhala</td><td>[NUMERO]</td><td>+50</td><td>-</td></tr>
+            <tr><td>Cascate Tuhala</td><td>+30</td><td>+50</td><td>-</td></tr>
             <tr><td>Shountal (4° Palestra)</td><td>+20</td><td>-</td><td>TM50</td></tr>
             <tr><td>Dune Merakai</td><td>+30</td><td>+40</td><td>-</td></tr>
             <tr><td>Lenora (5° Palestra)</td><td>+40</td><td>-</td><td>TM42</td></tr>
             <tr><td>Rivale (N)</td><td>+5</td><td>-</td><td>-</td></tr>
-            <tr><td>Treno</td><td>[NUMERO]</td><td>+15</td><td>-</td></tr>
+            <tr><td>Treno</td><td>+5</td><td>+15</td><td>-</td></tr>
             <tr><td>Rafan (6° Palestra)</td><td>+20</td><td>-</td><td>TM40</td></tr>
             <tr><td>Monte Orokai</td><td>-</td><td>+10</td><td>-</td></tr>
-            <tr><td>Plasma Underground</td><td>[NUMERO]</td><td>+35</td><td>-</td></tr>
-            <tr><td>Torre Plasma Superiore</td><td>[NUMERO]</td><td>+30</td><td>-</td></tr>
+            <tr><td>Plasma Underground</td><td>+25</td><td>+35</td><td>-</td></tr>
+            <tr><td>Torre Plasma Superiore</td><td>+15</td><td>+30</td><td>-</td></tr>
             <tr><td>Aristide (7° Palestra)</td><td>+100</td><td>-</td><td>TM04</td></tr>
-            <tr><td>Cratere Korake</td><td>[NUMERO]</td><td>+35</td><td>-</td></tr>
+            <tr><td>Cratere Korake</td><td>+20</td><td>+35</td><td>10 Megashard</td></tr>
             <tr><td>Elesa (8° Palestra)</td><td>+60</td><td>-</td><td>TM03</td></tr>
-            <tr><td>Cammino dell'Eroe</td><td>+30</td><td>[NUMERO]</td><td>-</td></tr>
-            <tr><td>Nardo (Superquattro)</td><td>80</td><td>-</td><td>-</td></tr>
-            <tr><td>Blu (Superquattro)</td><td>90</td><td>-</td><td>-</td></tr>
-            <tr><td>Lance (Superquattro)</td><td>100</td><td>-</td><td>-</td></tr>
-            <tr><td>Camilla (Superquattro)</td><td>110</td><td>-</td><td>-</td></tr>
-            <tr><td>Rosso (Campione)</td><td>300</td><td>-</td><td>-</td></tr>
+            <tr><td>Cammino dell'Eroe</td><td>+30</td><td>+100</td><td>-</td></tr>
+            <tr><td>Nardo (Superquattro)</td><td>+80</td><td>-</td><td>-</td></tr>
+            <tr><td>Blu (Superquattro)</td><td>+90</td><td>-</td><td>-</td></tr>
+            <tr><td>Lance (Superquattro)</td><td>+100</td><td>-</td><td>-</td></tr>
+            <tr><td>Camilla (Superquattro)</td><td>+110</td><td>-</td><td>-</td></tr>
+            <tr><td>Rosso (Campione)</td><td>+300</td><td>-</td><td>-</td></tr>
         </tbody>
     </table>
 </section>
