@@ -7,7 +7,6 @@ const content = `
     <h3>Cosa manca al momento:</h3>
     <ul>
         <li>Gli <strong>oggetti di cura</strong> utilizzati dagli allenatori durante le battaglie.</li>
-        <li>I <strong>punteggi esatti</strong> che si ottengono completando alcuni dungeon.</li>
     </ul>
 
     <h3>In fondo al documento troverai:</h3>
@@ -17,8 +16,8 @@ const content = `
         <li><a href="#pozzi">Elenco dei pozzi</a></li>
         <li><a href="#mt">Lista delle MT capipalestra</a></li>
         <li><a href="#eventi">Eventi in game</a></li>
-	    <li><a href="#punteggitorre">Ricompense Torre Lotta</li>
-	    <li><a href="#pietre">Costi Megapietre</li>
+	    <li><a href="#punteggitorre">Ricompense Torre Lotta</a></li>
+	    <li><a href="#pietre">Costi Megapietre</a></li>
     </ul>
 
     <h3>Info utile</h3>
@@ -28,7 +27,8 @@ const content = `
 
     <div class="warning-box">
         <strong>Hai trovato un errore?</strong><br>
-        La tua collaborazione è preziosa! Per qualsiasi segnalazione, imprecisione o suggerimento, non esitare a contattarmi su Telegram: <a href="https://t.me/Castee01" target="_blank">https://t.me/Castee01</a>
+        <p>La tua collaborazione è preziosa! Per qualsiasi segnalazione, imprecisione o suggerimento, non esitare a contattarmi su Telegram: <a href="https://t.me/Castee01" target="_blank">https://t.me/Castee01</a></p>
+        <p>Entra nel gruppo telegram ufficiale: <a href="https://t.me/+LduWQtvTjsswOWY0" target="_blank">https://t.me/+LduWQtvTjsswOWY0</p>
     </div>
 
     <p><strong>Grazie per la comprensione e buon gioco!</strong></p>
@@ -59,7 +59,7 @@ const content = `
         <li><strong>Route 1</strong> (contiene 4 Pokémon), situata subito fuori dalla casa.</li>
         <li><strong>Zone 2</strong> (contiene 5 Pokémon), a sinistra del vecchio.</li>
         <li><strong>Zone 3</strong> (contiene 4 Pokémon), alla sua destra, dove trovi anche la casa per trasformare Ditto.</li>
-        <li><strong>Bonus</strong> (contiene 4 Pokémon): accanto al vecchio ci sarà una zona temporanea per l'evento Spooky, al suo interno troverai anche una signora a cui vendere le caramelle rare, e dalla quale comprare Megapietre a prezzi scontati.</li>
+        <li><strong>Bonus</strong> (contiene 4 Pokémon): accanto al vecchio ci sarà una zona temporanea per <a href="#eventi">l'evento Spooky</a>, al suo interno troverai anche una signora a cui vendere le caramelle rare, e dalla quale comprare Megapietre a prezzi scontati.</li>
     </ul>
 
     <p>Il vecchio che si trova tra le due zone ti permette di <strong>bloccare il livello</strong> dei tuoi Pokémon a 8 per queste tre aree, e a 11 nella zona successiva allo scontro con il rivale. (Questa opzione richiede una "<a href="http://www.twitch.tv/subs/poly">sub</a>" a Poly).</p>
@@ -85,7 +85,7 @@ const content = `
     </ul>
 
     <p>Vincendo, riceverai <strong class="badge badge-points">5 punti</strong> e avrai inoltre il <strong>10% di possibilità di droppare 1 uovo 🥚</strong>.</p>
-. Superare questo scontro ti permetterà di proseguire la tua avventura.</p>
+ Superare questo scontro ti permetterà di proseguire la tua avventura.</p>
        <div class="warning-box">
        <h3>⚠️PICCOLA TIP</h3>
     <p>I Pokémon selvatici che trovi nell'erba alta danno <strong>1 punto esperienza (EXP)</strong>. Questa meccanica può essere molto utile se, dopo lo scontro con il rivale, ti manca pochissimo per salire di livello.</p></div>
@@ -134,7 +134,9 @@ const content = `
     <p>Sei entrato in un dungeon. Per poterne uscire, dovrai sconfiggere quasi tutti gli allenatori presenti.</p>
     
     <h3>NOTA BENE: INCONTRARE POKÉMON SELVATICI</h3>
-    <div class="warning-box"><p>In questa zona non ci sono incontri casuali. Se hai bisogno di affrontare Pokémon selvatici (ad esempio per curarti), devi usare un oggetto speciale. Segui questi passaggi:</p></div>
+    <div class="warning-box"><p>In questa zona non ci sono incontri casuali. Se hai bisogno di affrontare Pokémon selvatici (ad esempio per curarti), devi usare un oggetto speciale.
+    <p>Questo può essere utile anche per cercare una mossa da copiare, se il tuo Pokémon conosce <strong>Sketch</strong>.</p>
+    <p>Segui questi passaggi:</p></div>
     <ol>
         <li>Apri la borsa e attiva il <strong>"Wild Attract"</strong>.</li>
         <li>Fai un passo per far apparire un Pokémon.</li>
@@ -443,13 +445,13 @@ const content = `
     <p>Per proseguire con la tua avventura, dirigiti nell'area in <strong>alto a destra</strong> di Gemora City, dietro il Centro Pokémon. Sali la scalinata e troverai un ingresso nella montagna: è l'accesso alle <strong>Rovine Ka'aka</strong>. 
 
 <div class="warning-box">
-<strong>⚠️ ATTENZIONE:</strong>Le Rovine Ka'aka sono un <strong>dungeon</strong>. Assicurati che il pokemon sia pronto, perché <strong>non potrai curarti tra le battaglie</strong> fino a quando non ne sarai uscito.</p></div>
+<strong>⚠️ ATTENZIONE:</strong>Le Rovine Ka'aka sono un <strong>dungeon</strong>. Assicurati che il pokemon sia pronto, perché <strong>non potrai curarti tra le battaglie</strong> (se non tramite wild attract) fino a quando non ne sarai uscito.</p></div>
 </section>
 
 <section id="rovine">
     <h2>🏛️ ROVINE KA'AKA (DUNGEON)</h2>
     <p>Le rovine sono divise in <strong>cinque stanze</strong>. Troverai in tutto <strong>9 allenatori (8 opzionali e 1 obbligatorio) </strong>e <strong> 9 pokeball</strong>. 
-<div class="warning-box">La strategia migliore è sconfiggere per primo quello <strong>obbligatorio (terza stanza)</strong> per "aprirsi la strada" verso l'uscita. Una volta che il percorso è sicuro, potrai decidere se affrontare le 8 sfide opzionali. <strong>Ricorda</strong>: tutte le 9 Poké Ball del dungeon sono ottenibili senza affrontare alcun trainer. <strong>In quest'area anche se userete il Wild Attract non incontrerete nessun selvatico</strong>.</p></div>
+<div class="warning-box">La strategia migliore è sconfiggere per primo quello <strong>obbligatorio (terza stanza)</strong> per "aprirsi la strada" verso l'uscita. Una volta che il percorso è sicuro, potrai decidere se affrontare le 8 sfide opzionali. <strong>Ricorda</strong>: tutte le 9 Poké Ball del dungeon sono ottenibili senza affrontare alcun trainer.</p></div>
 
     <h3>Prima Stanza</h3>
     <p>In questa prima area troverai <strong>3 Poké Ball</strong> e <strong>3 allenatori opzionali</strong>.</p>
@@ -581,7 +583,7 @@ const content = `
 
     <div class="warning-box">
         <strong>⚠️ ATTENZIONE: SCONFIGGI PRIMA LE RECLUTE!</strong><br>
-        Questo dungeon è composto da <strong>5 Reclute del Team Plasma</strong> (3 obbligatorie, 2 opzionali) più la battaglia finale con <strong>Acromio</strong>. Le reclute <strong>scompariranno tutte non appena inizierai lo scontro con Acromio</strong>. Se punti al "Full Clear" per ottenere il massimo dei punti, assicurati di averle sconfitte tutte prima di raggiungere il boss.
+        Questo dungeon è composto da <strong>5 Reclute del Team Plasma</strong> (2 obbligatorie, 3 opzionali) più la battaglia finale con <strong>Acromio</strong>. Le reclute <strong>scompariranno tutte non appena inizierai lo scontro con Acromio</strong>. Se punti al "Full Clear" per ottenere il massimo dei punti, assicurati di averle sconfitte tutte prima di raggiungere il boss.
     </div>
 
     <h3>PERCORSO VERSO ACROMIO</h3>
@@ -590,7 +592,7 @@ const content = `
         <li><strong>Prima Recluta (all'ingresso)(Obbligatoria):</strong> 3 Pokémon (livello 29).</li>
         <li>Scendi le scale. Raccogli la <strong>Poké Ball</strong> e affronta la <strong>Seconda Recluta (Opzionale ma si gira):</strong> 2 Pokémon (livello 30).</li>
         <li>Prosegui sulla destra per trovare la <strong>Terza Recluta (Obbligatoria)</strong> (1 Pokémon, livello 30) e un'altra <strong>Poké Ball</strong>.</li>
-        <li>Continuando, incontrerai la <strong>Quarta Recluta</strong> <strong>(Obbligatoria)</strong>(1 Pokémon, livello 30).</li>
+        <li>Continuando, incontrerai la <strong>Quarta Recluta</strong> <strong>(Opzionale passando a destra)</strong>(1 Pokémon, livello 30).</li>
         <li>Infine, ti attende la <strong>Quinta e ultima Recluta (Opzionale)</strong> con 4 Pokémon (uno di livello 27, due di livello 33 e uno di livello 30).</li>
         <li>Dopo quest'ultimo scontro, il sentiero si divide. Vai in <strong>alto a destra</strong> per raccogliere una <strong>Poké Ball</strong> (qui troverai anche l'uscita del dungeon, ma sarà bloccata fino alla sconfitta del boss). La via a <strong>sinistra</strong> ti porterà invece da Acromio.</li>
     </ol>
@@ -658,6 +660,7 @@ const content = `
 
     <div class="info-box">
         <strong>Tempesta di Sabbia:</strong> Fai attenzione! Diverse battaglie in quest'area si svolgeranno sotto una <strong>Tempesta di Sabbia (Sandstorm)</strong>.
+        <p><strong>In quest'area anche se userete il Wild Attract non incontrerete nessun selvatico</strong>.</p>
     </div>
 
     <h4>PRIMA AREA</h4>
@@ -726,7 +729,8 @@ const content = `
     <p>Sei entrato in un'area pensata per il farming. Vicino alla casa iniziale, noterai un'<strong>anziana che curerà il tuo Pokémon</strong> ogni volta che le parlerai. Sfruttala per affrontare tutte le sfide senza preoccupazioni.</p>
    <div class="warning-box">
         <strong>⚠️ SUGGERIMENTO</strong><br>
-        Dopo aver affrontato i primi  <strong>2 allenatori</strong> evita i successivi <strong>3</strong>. Recati <strong>subito in alto</strong> dove ti attenderà la battaglia con <strong>N</strong>. Poi recupera i 3 allenatori.
+        <p>Dopo aver affrontato i primi  <strong>2 allenatori</strong> evita i successivi <strong>3</strong>. Recati <strong>subito in alto</strong> dove ti attenderà la battaglia con <strong>N</strong>. Poi recupera i 3 allenatori.</p>
+        La prima allenatrice dell'area avrà <strong class="badge badge-cure">1 Full Restore</strong>.
     </div>
 
     <h3>SFIDA: RIVALE N</h3>
@@ -854,15 +858,20 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
 	<li><strong>Quarta: </strong>2 Pokémon, entrambi livello 45.</li>
     </ul>
 
+    <a href="https://www.twitch.tv/droodthund3r/clip/VenomousBumblingSquidCoolCat-fp5-ogWXZqBWoiRP" target="_blank">Soluzione 1° minigioco</a></p>
+    <a href="https://www.twitch.tv/droodthund3r/clip/InexpensiveTriumphantPartridgeLeeroyJenkins-RGNE0O2RvM7LVaFk" target="_blank">Soluzione 2° minigioco</a>
+    
+
     <h4>RICOMPENSA DEL MONTE OROKAI</h4>
     <p>Full Clear (obbligatorio): <span class="badge badge-points">10 punti</span>.</p>
 </section>
 
 <section id="plasma">
     <h2>💀 ROUTE 8 e TEAM PLASMA</h2>
-    <p>Uscito dal Monte Orokai, ti troverai nella Route 8, una vasta area di farming. Potrai curarti spesso grazie alle infermiere presenti, quindi non esitare ad affrontare tutti gli allenatori. Dirigiti verso la grande struttura in alto a destra. Fuori dall'edificio, ti attende un Allenatore. Prosegui a destra per raccogliere un'ultima Poké Ball. Sali le scale ed entra nella grotta. Al suo interno troverai 2 Poké Ball. Esci dall'altro lato per arrivare finalmente a <strong>Mindra City</strong>.</p>
+    <p>Uscito dal Monte Orokai, ti troverai nella Route 8, una vasta area di farming. Potrai curarti spesso grazie alle infermiere presenti, quindi non esitare ad affrontare tutti gli allenatori. Numerosi allenatori avranno anche <strong class="badge badge-cure">1 Full Restore</strong>.</p>
+    <p>Dirigiti verso la grande struttura in alto a destra. Fuori dall'edificio, ti attende un Allenatore. Prosegui a destra per raccogliere un'ultima Poké Ball. Sali le scale ed entra nella grotta. Al suo interno troverai 2 Poké Ball. Esci dall'altro lato per arrivare finalmente a <strong>Mindra City</strong>.</p>
 
-    <p>L'arrivo a Mindra City ti serve principalmente raccogliere le Poké Ball in città, curati al Centro Pokémon e poi torna indietro fino alla grande struttura che hai superato prima della grotta. Quella è la tua vera destinazione: la <strong>Torre Plasma</strong>.</p>
+    <p>L'arrivo a Mindra City ti serve principalmente per raccogliere le Poké Ball in città. Curati al Centro Pokémon e poi torna indietro fino alla grande struttura che hai superato prima della grotta. Quella è la tua vera destinazione: la <strong>Torre Plasma</strong>.</p>
 
     <h3>TORRE PLASMA</h3>
     <p>Una volta entrato nella Torre, noterai subito una receptionist. Parlale ogni volta che hai bisogno di curare la tua squadra. La Torre Plasma è il punto di accesso a due dungeon separati. Per proseguire correttamente nella storia, dovrai affrontarli in un ordine preciso: prima quello a sinistra e poi quello in alto a destra.</p>
@@ -1091,6 +1100,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
 
     <div class="warning-box">
         <strong>Nota importante sullo scontro finale:</strong> Nello scontro con Elesa, fai attenzione: se possiede un Pokémon in grado di megaevolversi, lo farà (una sola volta durante la battaglia).
+        <p>Attenzione: Alcuni trainer della palestra avranno delle cure, al momento non siamo a conoscenza di quali, se riuscite a scoprirlo segnalatecelo pure, grazie.</p>
     </div>
 
     <h4>ALLENATORI DELLA PALESTRA</h4>
@@ -1101,9 +1111,9 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
         <li><strong>Quarta Allenatrice:</strong> 2 Pokémon (entrambi livello 59).</li>
         <li><strong>Quinta Allenatrice:</strong> 2 Pokémon (entrambi livello 59).</li>
         <li><strong>Sesta Allenatrice:</strong> 1 Pokémon (livello 60).</li>
-        <li><strong>Settima Allenatrice:</strong> 2 Pokémon (entrambi livello 59).</li>
+        <li><strong>Settima Allenatrice:</strong> 2 Pokémon (entrambi livello 59). Avrà anche <strong class="badge badge-cure">1 Full Restore</strong>.</li>
         <li><strong>Ottava Allenatrice:</strong> 3 Pokémon (livelli 53, 56, 59).</li>
-        <li><strong>Nona Allenatrice:</strong> 1 Pokémon (livello 60).</li>
+        <li><strong>Nona Allenatrice:</strong> 1 Pokémon (livello 60). Avrà anche <strong class="badge badge-cure">1 Full Restore</strong>.</li>
         <li><strong>Decima Allenatrice:</strong> 3 Pokémon (livelli 53, 56, 59).</li>
         <li><strong>Elesa (Capopalestra):</strong> 6 Pokémon (quattro di livello 62, uno di livello 63 e l'asso di livello 65). Elesa avrà anche <strong class="badge badge-cure">2 Iper Pozioni</strong>.</li>
     </ul>
@@ -1123,7 +1133,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
     <p>Il traghetto ti condurrà su un'isola di passaggio, l'ultima tappa del tuo viaggio. Dirigiti verso la parte superiore dell'isola: lì troverai l'ingresso per l'ultimo dungeon del gioco, il <strong>Cammino dell'Eroe</strong>.</p>
 
     <h3>CAMMINO DELL'EROE (VIA VITTORIA)</h3>
-    <p>Il Cammino dell'Eroe è l'ultimo sforzo prima della Lega Pokémon. All'interno troverai <strong>12 allenatori</strong> e <strong>6 Poké Ball</strong>.</p>
+    <p>Il Cammino dell'Eroe è l'ultimo sforzo prima della Lega Pokémon. All'interno troverai <strong>16 allenatori</strong> (Opzionali) e <strong>6 Poké Ball</strong>.</p>
 
    <div class="warning-box">
  <h4>STRATEGIA CONSIGLIATA: SOPRAVVIVERE PER ANDARE ALLA LEGA</h4>
@@ -1265,15 +1275,15 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             <tr><td>Ponte</td><td>+10</td><td>-</td><td>-</td></tr>
             <tr><td>Foresta Ukani</td><td>+15</td><td>+25</td><td>-</td></tr>
             <tr><td>Iris (1° Palestra)</td><td>+70</td><td>-</td><td>TM39</td></tr>
-            <tr><td>World Boss (Fase 1)</td><td>+10</td><td>-</td><td>10 Megashard</td></tr>
+            <tr><td>World Boss (Fase 1)</td><td>+10</td><td>-</td><td>10 Megashard (20 durante Mega Week)</td></tr>
             <tr><td>Tunnel Poaka</td><td>+20</td><td>+25</td><td>-</td></tr>
             <tr><td>Chicco (2° Palestra)</td><td>+35</td><td>-</td><td>TM08</td></tr>
-            <tr><td>Acromio (Grotta Niuna)</td><td>+10</td><td>-</td><td>10 Megashard</td></tr>
-            <tr><td>MiniereGemora</td><td>+20</td><td>+25</td><td>-</td></tr>
+            <tr><td>Acromio (Grotta Niuna)</td><td>+10</td><td>-</td><td>10 Megashard (20 durante Mega Week)</td></tr>
+            <tr><td>Miniere Gemora</td><td>+20</td><td>+25</td><td>-</td></tr>
             <tr><td>Artemisio (3° Palestra)</td><td>+35</td><td>-</td><td>TM34</td></tr>
             <tr><td>Rovine Ka'aka</td><td>+15</td><td>+25</td><td>-</td></tr>
             <tr><td>Selva Laloa</td><td>+10</td><td>+20</td><td>-</td></tr>
-            <tr><td>Cascate Tuhala</td><td>+30</td><td>+50</td><td>-</td></tr>
+            <tr><td>Cascate Tuhala</td><td>+30</td><td>+50</td><td>10 Megashard</td></tr>
             <tr><td>Shountal (4° Palestra)</td><td>+20</td><td>-</td><td>TM50</td></tr>
             <tr><td>Dune Merakai</td><td>+30</td><td>+40</td><td>-</td></tr>
             <tr><td>Lenora (5° Palestra)</td><td>+40</td><td>-</td><td>TM42</td></tr>
@@ -1287,11 +1297,11 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             <tr><td>Cratere Korake</td><td>+20</td><td>+35</td><td>10 Megashard</td></tr>
             <tr><td>Elesa (8° Palestra)</td><td>+60</td><td>-</td><td>TM03</td></tr>
             <tr><td>Cammino dell'Eroe</td><td>+30</td><td>+100</td><td>-</td></tr>
-            <tr><td>Nardo (Superquattro)</td><td>+80</td><td>-</td><td>-</td></tr>
-            <tr><td>Blu (Superquattro)</td><td>+90</td><td>-</td><td>-</td></tr>
-            <tr><td>Lance (Superquattro)</td><td>+100</td><td>-</td><td>-</td></tr>
-            <tr><td>Camilla (Superquattro)</td><td>+110</td><td>-</td><td>-</td></tr>
-            <tr><td>Rosso (Campione)</td><td>+300</td><td>-</td><td>-</td></tr>
+            <tr><td>Nardo (Superquattro)</td><td>+80</td><td>-</td><td>10 Megashard</td></tr>
+            <tr><td>Blu (Superquattro)</td><td>+90</td><td>-</td><td>10 Megashard</td></tr>
+            <tr><td>Lance (Superquattro)</td><td>+100</td><td>-</td><td>10 Megashard</td></tr>
+            <tr><td>Camilla (Superquattro)</td><td>+110</td><td>-</td><td>10 Megashard</td></tr>
+            <tr><td>Rosso (Campione)</td><td>+300</td><td>-</td><td>10 Megashard</td></tr>
         </tbody>
     </table>
 </section>
@@ -1300,8 +1310,9 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
 <h2> 🥚LISTA DELLE UOVA SPECIALI</h2>
     <p>Elenco delle uova speciali presentate:</p>
     <ul>
-        <li>SPIN EGG <a href="https://afanelli.github.io/spin_egg/">[calcola il precedente]</a></li>
-        <li>CHEST EGG <a href="https://imgur.com/a/4BgrpYY">[pool]</a></li>
+        <li>SPIN EGG: <a href="https://afanelli.github.io/spin_egg/">[calcola il precedente]</a></li>
+        <li>CHEST EGG: <a href="https://imgur.com/a/4BgrpYY">[pool]</a>. Porta Gimmighoul (+30 Punti, +15 monete) o Gholdengo (+60 Punti, +30 monete) dal cartolaio sulla Route 1 per riscattare il premio.</li>
+        <li>MEGA EGG: <a href="https://imgur.com/a/rdwDXGL">[pool]</a>. Grazie a questo uovo potrete ottenere al 100% un Pokémon in grado di Megaevolversi. <a href="#pietre">Costi Megapietre</a>.</li>
         <li>...</li>
     </ul>
 </section>
@@ -1335,8 +1346,22 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
 <h2> 💣LISTA DEGLI EVENTI</h2>
     <p>Elenco degli eventi in game:</p>
     <ul>
-        <li>🎃 SPOOKY WEEK (29/10 - 5/11): <a href="https://imgur.com/a/soKAKjs/">[sconti pietre]</a></li>
+        <li>🎃 SPOOKY WEEK (29/10 - 5/11): <a href="https://imgur.com/a/soKAKjs/">[sconti pietre]</a> Cerca i Pikachu travestiti da Mimikyu e scegli "Dolcetto o Scherzetto". Vendi le caramelle al nuovo NPC in Route 1 per ottenere Candy Points e aiutare a sbloccare +1 Spazio Stash per tutti!</li>
+        <li>💥 MEGA WEEK (04/11 - 11/11): World Boss e Acromio nel monte Niuna avranno il drop doppio di shard da 10 a 20. Nello shop ci sarà il Mega Pack </li>
         <li>...</li>
+    </ul>
+</section>
+
+<section id="errori">
+<h2> ⛔LISTA DEGLI ERRORI</h2>
+    <p>Elenco dei possibili errori:</p>
+    <ul>
+        <li>404: La pagina non esiste o è stata spostata.</li>
+        <li>599: Per motivi di sicurezza il sito al momento non accetta connessioni dall'estero. Puoi usare una VPN.</li>
+        <li>403: Pulisci i <a href="https://www.twitch.tv/alepre98/clip/PleasantKindMouseKappa-CetcfebMIqk5ehYp" target="_blank">cookie</a> del sito e riprova. Se non funziona prova a cambiare browser o riavviare il router.</li>
+        <li>500: Verifica la tua mail di Twitch.</li>
+        <li>419: Sono state apportate modifiche al sito. Aggiorna la pagina.</li>
+        <li>300158: Segui in ordine i seguenti passaggi: Tasto emergenza, chiudi il browser, riapri tutto, fai la login, carica la rom, fai la patch.</li>
     </ul>
 </section>
 
@@ -1359,7 +1384,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             <tr>
                 <td>1</td>
                 <td>5</td>
-                <td>-</td>
+                <td>Pozione</td>
                 <td>-</td>
                 <td>-</td>
                 <td>-</td>
