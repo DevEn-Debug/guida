@@ -28,7 +28,7 @@ const content = `
     <div class="warning-box">
         <strong>Hai trovato un errore?</strong><br>
         <p>La tua collaborazione è preziosa! Per qualsiasi segnalazione, imprecisione o suggerimento, non esitare a contattarmi su Telegram: <a href="https://t.me/Castee01" target="_blank">https://t.me/Castee01</a></p>
-        <p>Entra nel gruppo telegram ufficiale: <a href="https://t.me/+LduWQtvTjsswOWY0" target="_blank">https://t.me/+LduWQtvTjsswOWY0</p>
+        <p>Entra nel gruppo telegram ufficiale: <a href="https://t.me/+LduWQtvTjsswOWY0" target="_blank">GRUPPO TELEGRAM</a></p>
     </div>
 
     <p><strong>Grazie per la comprensione e buon gioco!</strong></p>
