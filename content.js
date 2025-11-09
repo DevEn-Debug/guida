@@ -18,6 +18,7 @@ const content = `
         <li><a href="#eventi">Eventi in game</a></li>
 	    <li><a href="#punteggitorre">Ricompense Torre Lotta</a></li>
 	    <li><a href="#pietre">Costi Megapietre</a></li>
+        <li><a href="#errori">Lista Errori</a></li>
     </ul>
 
     <h3>Info utile</h3>
@@ -28,7 +29,7 @@ const content = `
     <div class="warning-box">
         <strong>Hai trovato un errore?</strong><br>
         <p>La tua collaborazione è preziosa! Per qualsiasi segnalazione, imprecisione o suggerimento, non esitare a contattarmi su Telegram: <a href="https://t.me/Castee01" target="_blank">https://t.me/Castee01</a></p>
-        <p>Entra nel gruppo telegram ufficiale: <a href="https://t.me/+LduWQtvTjsswOWY0" target="_blank">GRUPPO TELEGRAM</a></p>
+        <p>Entra nel gruppo telegram ufficiale: <a href="https://t.me/+LduWQtvTjsswOWY0" target="_blank">GRUPPO TELEGRAM.</a></p>
     </div>
 
     <p><strong>Grazie per la comprensione e buon gioco!</strong></p>
@@ -59,7 +60,7 @@ const content = `
         <li><strong>Route 1</strong> (contiene 4 Pokémon), situata subito fuori dalla casa.</li>
         <li><strong>Zone 2</strong> (contiene 5 Pokémon), a sinistra del vecchio.</li>
         <li><strong>Zone 3</strong> (contiene 4 Pokémon), alla sua destra, dove trovi anche la casa per trasformare Ditto.</li>
-        <li><strong>Bonus</strong> (contiene 4 Pokémon): accanto al vecchio ci sarà una zona temporanea per <a href="#eventi">l'evento Spooky</a>, al suo interno troverai anche una signora a cui vendere le caramelle rare, e dalla quale comprare Megapietre a prezzi scontati.</li>
+        <li><strong>Bonus</strong>: tra gli alberi della Zona 1, si aprirà un varco, solo con <a href="#uova">l'uovo Gracidea</a>, al suo interno troverai la gracidea per ottenere la forma cielo di Shaymin.</li>
     </ul>
 
     <p>Il vecchio che si trova tra le due zone ti permette di <strong>bloccare il livello</strong> dei tuoi Pokémon a 8 per queste tre aree, e a 11 nella zona successiva allo scontro con il rivale. (Questa opzione richiede una "<a href="http://www.twitch.tv/subs/poly">sub</a>" a Poly).</p>
@@ -244,12 +245,12 @@ const content = `
         <li><strong>Megaevoluzione:</strong> Se il World Boss possiede un Pokémon in grado di megaevolversi, lo farà. <strong>Attenzione</strong>: se in campo ci saranno contemporaneamente due Pokémon in grado di megaevolversi, lo faranno entrambi.</li>
         <li><strong>Livello Adattivo:</strong> Ricorda, il suo livello dipende dal tuo!</li>
         <li><strong>Drop uova</strong>: Sconfiggendolo avrete <strong>1 UOVO SPECIALE</strong> garantito.</li>
-        <li><strong>Fase 1</strong>: In questa prima fase il WB avrà <strong>4 Pokémon di 8 livelli inferiori</strong> al tuo. Avrà inoltre <strong class="badge badge-cure">1 Dire Hit</strong> e <strong class="badge badge-cure">1 Full Restore</strong></li>
+        <li><strong>Fase 1</strong>: In questa prima fase il WB avrà <strong>4 Pokémon di 6 livelli inferiori</strong> al tuo. Avrà inoltre <strong class="badge badge-cure">1 Dire Hit</strong> <strong class="badge badge-cure">1 Full Restore</strong> e <strong class="badge badge-cure">1 Max Revive</strong></li>
     </ul>
 
     <p>Sconfiggere il World Boss ti consente di ottenere grandi ricompense.</p>
     <ul>
-        <li><strong>Ricompensa della Fase 1:</strong> Riceverai <span class="badge badge-points">10 punti</span>, <strong>10 Megashard</strong>. Inoltre riceverete un Full Heal, un Dire Hit, un X Sp. Atk, un X Atk</li>
+        <li><strong>Ricompensa della Fase 2:</strong> Riceverai <span class="badge badge-points">40 punti</span>, <strong>10 Megashard</strong>. Inoltre riceverete 1 Full Heal, 1 Dire Hit, 1 Guard Spec, 2 Rare Candy, TM21 e 1 Full Restore.</li>
         <li><strong>Premio di Partecipazione:</strong> Se contribuisci a sconfiggere una fase del boss partecipando ad <strong>almeno una battaglia</strong>, riceverai un premio extra quando quello stage verrà completato.</li>
     </ul>
 
@@ -1275,7 +1276,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             <tr><td>Ponte</td><td>+10</td><td>-</td><td>-</td></tr>
             <tr><td>Foresta Ukani</td><td>+15</td><td>+25</td><td>-</td></tr>
             <tr><td>Iris (1° Palestra)</td><td>+70</td><td>-</td><td>TM39</td></tr>
-            <tr><td>World Boss (Fase 1)</td><td>+10</td><td>-</td><td>10 Megashard (20 durante Mega Week)</td></tr>
+            <tr><td>World Boss (Fase 2)</td><td>+40</td><td>-</td><td>10 Megashard (20 durante Mega Week)</td></tr>
             <tr><td>Tunnel Poaka</td><td>+20</td><td>+25</td><td>-</td></tr>
             <tr><td>Chicco (2° Palestra)</td><td>+35</td><td>-</td><td>TM08</td></tr>
             <tr><td>Acromio (Grotta Niuna)</td><td>+10</td><td>-</td><td>10 Megashard (20 durante Mega Week)</td></tr>
@@ -1313,6 +1314,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
         <li>SPIN EGG: <a href="https://afanelli.github.io/spin_egg/">[calcola il precedente]</a></li>
         <li>CHEST EGG: <a href="https://imgur.com/a/4BgrpYY">[pool]</a>. Porta Gimmighoul (+30 Punti, +15 monete) o Gholdengo (+60 Punti, +30 monete) dal cartolaio sulla Route 1 per riscattare il premio.</li>
         <li>MEGA EGG: <a href="https://imgur.com/a/rdwDXGL">[pool]</a>. Grazie a questo uovo potrete ottenere al 100% un Pokémon in grado di Megaevolversi. <a href="#pietre">Costi Megapietre</a>.</li>
+        <li>GRACIDEA EGG: <a href="https://imgur.com/a/pool-gracidea-YzB1gqi">[pool]</a>. Una volta trovato Shaymin, apparirà una nuova zona nella Route 1. Vai lì, raccogli la Gracidea e usala per trasformarlo nella sua Forma Cielo!</li>
         <li>...</li>
     </ul>
 </section>
