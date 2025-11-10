@@ -1315,6 +1315,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
         <li>CHEST EGG: <a href="https://imgur.com/a/4BgrpYY">[pool]</a>. Porta Gimmighoul (+30 Punti, +15 monete) o Gholdengo (+60 Punti, +30 monete) dal cartolaio sulla Route 1 per riscattare il premio.</li>
         <li>MEGA EGG: <a href="https://imgur.com/a/rdwDXGL">[pool]</a>. Grazie a questo uovo potrete ottenere al 100% un Pokémon in grado di Megaevolversi. <a href="#pietre">Costi Megapietre</a>.</li>
         <li>GRACIDEA EGG: <a href="https://imgur.com/a/pool-gracidea-YzB1gqi">[pool]</a>. Una volta trovato Shaymin, apparirà una nuova zona nella Route 1. Vai lì, raccogli la Gracidea e usala per trasformarlo nella sua Forma Cielo!</li>
+        <li>CELL EGG: Schiudilo per ottenere Zygarde 10% (486 BST), imparerà 1 mossa a livello (fino al 16)! Trova le 10 Cellule nascoste prima della seconda palestra per trasformarlo nella sua forma 50% da 640BST! 🔥 Ogni Cella ti dà anche un item bonus!</li>
         <li>...</li>
     </ul>
 </section>
@@ -1350,6 +1351,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
     <ul>
         <li>🎃 SPOOKY WEEK (29/10 - 5/11): <a href="https://imgur.com/a/soKAKjs/">[sconti pietre]</a> Cerca i Pikachu travestiti da Mimikyu e scegli "Dolcetto o Scherzetto". Vendi le caramelle al nuovo NPC in Route 1 per ottenere Candy Points e aiutare a sbloccare +1 Spazio Stash per tutti!</li>
         <li>💥 MEGA WEEK (04/11 - 11/11): World Boss e Acromio nel monte Niuna avranno il drop doppio di shard da 10 a 20. Nello shop ci sarà il Mega Pack </li>
+        <li>🧬 EVO WEEK (10/11 - 17/11): In questa settimana il cap delle evoluzioni passa da 580 a 600 BST. </li>
         <li>...</li>
     </ul>
 </section>
@@ -1461,7 +1463,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
                 <td>Soda Pop</td>
                 <td>-</td>
                 <td>10</td>
-                <td>Pack Back</td>
+                <td>Pack Base</td>
             </tr>
             <tr>
                 <td>11</td>
@@ -1484,7 +1486,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
                 <td>20</td>
                 <td>Enigma</td>
                 <td>-</td>
-                <td>5</td>
+                <td>10</td>
                 <td>-</td>
             </tr>
             <tr>
