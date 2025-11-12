@@ -506,11 +506,19 @@ const content = `
 
     <h4>COME FUNZIONA</h4>
     <ul>
-        <li><strong>Struttura:</strong> La Torre è composta da 25 piani, con un avversario per ogni piano.</li>
+        <li><strong>Struttura:</strong> La Torre è composta da 25 piani (rilasciati progressivamente), con un avversario per ogni piano.</li>
         <li><strong>Regole di Scontro:</strong> Non è permesso usare strumenti di cura durante le battaglie. Il tuo Pokémon sarà impostato a livello 50 e verrà curato automaticamente al termine di ogni scontro</li>
-        <li><strong>Ricompense:</strong> Riceverai un premio dopo aver completato ogni piano.</li>
+        <li><strong>Ricompense:</strong> Riceverai un premio dopo aver completato ogni piano. <a href="#punteggitorre"> Ricompense Torre Lotta</a></li>
         <li><strong>Progressione:</strong> Dopo ogni vittoria, vai nell'angolo in alto a destra raccogli la borsa per le ricompense, sali le scale e interagendo con la receptionist potrai scegliere se continuare la scalata o ritirarti, conservando i premi ottenuti fino a quel momento. <strong>Ricordati che se verrai sconfitto la tua run terminerà.</strong></li>
-        <li><strong>Missione stagionale</strong>: Non dimenticare la missione stagionale legata alla Torre Lotta. L'obiettivo è registrare 35 Pokémon..</li>
+        <li><strong>Missione stagionale</strong>: Non dimenticare la missione stagionale legata alla Torre Lotta. L'obiettivo è registrare 35 Pokémon.</li>
+    </ul>
+
+    <h4>INFO TRAINER</h4>
+    <ul>
+        <li><strong>Primi 5:</strong> I primi 5 trainer avranno 1 Pokémon rispettivamente a livello 45, 46, 47, 48, 49. Avranno inoltre <strong class="badge badge-cure">1 Pozione</strong>.</li>
+        <li><strong>Dal 6° al 10° piano:</strong> Da qui in poi i trainer avranno 1 Pokémon a livello 50. Avranno inoltre <strong class="badge badge-cure">1 Pozione</strong>.</li>
+        <li><strong>Dal 11° al 15° piano:</strong> Avranno <strong class="badge badge-cure">1 Super Pozione</strong>.</li>
+        <li><strong>Dal 16° al 20° piano:</strong> Avranno <strong class="badge badge-cure">1 Moomoo Milk</strong>.</li>
     </ul>
 
     <p>Prima di iniziare la sfida, all'ingresso della torre, sulla destra, troverai un armadietto che funge da Stash. Usalo per depositare o ritirare oggetti e preparare il tuo Pokémon al meglio. Quando sei pronto, parla con l'addetta alla reception e scegli l'aspetto che desideri usare durante la scalata della Torre Lotta.</p>
@@ -846,7 +854,8 @@ Il treno è un <strong>dungeon</strong>. Preparati bene prima di entrare, perch�
     <p>Se hai affrontato la difficile sfida del pozzo, torna a curarti dall'infermiera un'ultima volta. Quando sei pronto, entra nel varco nella montagna per accedere al <strong>Monte Orokai</strong>. 
 <div class="warning-box">
 <strong>⚠️ATTENZIONE</strong><br>
-Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare, perché non potrai curare i tuoi Pokémon dall'infermiera tra una battaglia e l'altra fino a quando non avrai trovato l'uscita.</p> </div>
+Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare, perché non potrai curare i tuoi Pokémon dall'infermiera tra una battaglia e l'altra fino a quando non avrai trovato l'uscita.</p>
+Ogni battaglia avverrà sotto grandine. </div>
 </section>
 
     <h3>MONTE OROKAI (DUNGEON)</h3>
@@ -1387,7 +1396,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
         <tbody>
             <tr>
                 <td>1</td>
-                <td>5</td>
+                <td>10</td>
                 <td>Pozione</td>
                 <td>-</td>
                 <td>-</td>
@@ -1395,7 +1404,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             </tr>
             <tr>
                 <td>2</td>
-                <td>5</td>
+                <td>10</td>
                 <td>-</td>
                 <td>-</td>
                 <td>-</td>
@@ -1403,7 +1412,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             </tr>
             <tr>
                 <td>3</td>
-                <td>5</td>
+                <td>10</td>
                 <td>-</td>
                 <td>Uovo T1</td>
                 <td>-</td>
@@ -1411,7 +1420,7 @@ Il Monte Orokai è un <strong>dungeon</strong>. Preparati bene prima di entrare,
             </tr>
             <tr>
                 <td>4</td>
-                <td>5</td>
+                <td>10</td>
                 <td>-</td>
                 <td>-</td>
                 <td>5</td>
